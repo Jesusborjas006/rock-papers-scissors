@@ -4,11 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors Game</title>
   </head>
   <body>
-    <div>
-      <h1><p></p></h1>
-    </div>
+    <main class="main-page">
+      <section class="player-section">
+        <h3 class="player-header">Player</h3>
+        <p class="player-score">Wins: 0</p>
+      </section>
+      <section class="game-section">
+        <div class="game-container">
+          <h1 class="main-heading">Rock, Paper, Scissors</h1>
+          <h2 class="sub-heading">Choose Your Fighter!</h2>
+        </div>
+        <div class="game-container">
+          <img id="rock" src="./images/rock.png" alt="rock">
+          <img id="paper" src="./images/post-it.png" alt="paper">
+          <img id="scissors" src="./images/scissors copy.png" alt="scissors">
+        </div>
+        <button class="reset-btn">Reset</button>
+      </section>
+      <section class="cpu-section">
+        <h3 class="cpu-header">CPU</h3>
+        <p class="cpu-score">Wins: 0</p>
+      </section>
+    </main>
   </body>
 </html>

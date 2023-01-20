@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.player-section,
+.cpu-section {
+  background: rgba(97, 213, 128, 0.64);
+  width: 25vw;
+  font-size: 2.5rem;
+  padding-top: 8vh;
+}
+
+.player-section p,
+.cpu-section p{
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.game-section {
+  background: rgb(97, 213, 128);
+  width: 75vw;
+}
+
+.game-container {
+  margin-top: 4rem;
+}
+
+.main-heading {
+  font-size: 4.4rem;
+}
+
+.sub-heading {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+img {
+  width: 200px;
+  margin: 5rem 35px 0;
+  cursor: pointer;
+}
+
+.reset-btn {
+  background: #04625a;
+  margin-top: 14vh;
+  padding: 10px 25px;
+  font-size: 26px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: all ease-in-out .2s;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.reset-btn:hover {
+  background:  #028b80;
+}
