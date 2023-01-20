@@ -66,3 +66,7 @@ img {
 .reset-btn:hover {
   background:  #028b80;
 }
+
+.hidden {
+  display: none;
+}
