@@ -40,8 +40,9 @@
 }
 
 .sub-heading {
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 2rem;
+  color: rgb(0, 4, 255)
 }
 
 img {
