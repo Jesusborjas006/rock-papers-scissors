@@ -1,5 +1,7 @@
 # Rock Paper Scissors 
 
+## [Cheack out site here](https://rock-papers-scissors.vercel.app/)
+
 ### Learning Goals
 - Solidify and demonstrate your understanding of:
 - DRY JavaScript
