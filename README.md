@@ -8,6 +8,7 @@
 - Event delegation to handle similar event listeners
 - Understand the difference between the data model and how the data is displayed on the DOM
 - Use your problem solving process to break down large problems and solve things step by step
+- Create a responsive application
 
 ### Abstract
 This is one of the most known games that I created that you can go against the computer.
